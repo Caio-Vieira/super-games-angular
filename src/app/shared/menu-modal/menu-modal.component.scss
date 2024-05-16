@@ -1,0 +1,74 @@
+@import "../../../styles.scss";
+.nav {
+  .icon-fa-solid-fa-bars {
+    i{
+      margin-top: 15px;
+      margin-left: 15px;
+      cursor: pointer;
+    }
+  }
+  .ul-modal {
+    position: absolute;
+    left:1;
+    top:1%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    text-decoration: none;
+    display: none;
+    background:$nav-modal-gradient;
+
+    .li{
+      text-decoration: none;
+      list-style: none;
+      .icon-fa-solid-fa-dollar-sign{
+        @include display-center;
+       padding: 15px 15px;
+       i.fa-solid{
+        font-size: 2rem;
+       }
+      }
+      a{
+        text-decoration: none;
+        font-family: $font-family-jura;
+        color: #ffffff;
+        font-size: 1.1rem;
+      }
+      .active{
+        color:$color-blue-pool;
+      }
+    }
+
+  }
+  .showModal {
+    position: absolute;
+    top: 0;
+    width: 150px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+  }
+  .icons-social-networks{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+
+  }
+  .icon-fa-solid-fa-xmrk{
+    height: auto;
+    i.fa-solid{
+      border:solid 0.001px $color-first-White;
+      font-size: 1rem;
+
+    }
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .nav {
+    display: none !important;
+  }
+}

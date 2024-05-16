@@ -1,0 +1,54 @@
+<main class="container--card">
+  <h2>Super Mega Marque 6 numeros</h2>
+
+  <section class="section">
+    <div class="generate-numbers-reveal">
+      <button (click)="generateNumbers()" class="generate-numbers-button">
+        <label>Gerar números</label>
+      </button>
+
+      <button (click)="revealNumbers()" class="button-reveal-numbers">
+        <i [ngClass]="revealIcon"></i>
+        <label>Revelar</label>
+      </button>
+    </div>
+
+    <div class="reveal--numbers">
+      <span class="secretNumbers" [ngClass]="{ hidden: !numbersRevealed }" id="secretNumbers">{{
+        generatedNumbers.join(" ")
+      }}</span>
+    </div>
+
+    <table class="numbers--table" id="numbersTable">
+      <tr *ngFor="let row of rows">
+        <td *ngFor="let num of row">
+          <button
+            (click)="toggleNumber(num)"
+            class="button-select-card-numbers"
+            [ngClass]="{'button-select-card-numbers-toggle': numbersClicked.includes(num),
+             cursorNotAllowed: isNumberDisabled(num)}"
+            [disabled]="isNumberDisabled(num)"
+          >
+            {{ num }}
+          </button>
+        </td>
+      </tr>
+    </table>
+
+    <div class="play--restart">
+      <button (click)="play()" class="play--button" id="PlayButton">
+        <label>Jogar</label>
+      </button>
+
+      <button (click)="restart()" class="restart--button">
+        <label>Reiniciar Jogo</label>
+      </button>
+    </div>
+
+    <div class="result" id="result">
+      <i [class]="gameResult.icon"></i>
+      <p [innerHTML]="gameResult.message"></p>
+    </div>
+  </section>
+</main>
+

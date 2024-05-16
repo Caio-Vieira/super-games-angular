@@ -1,0 +1,34 @@
+@import "../styles.scss";
+.numbers--table {
+  background:$table-liner-gradient-super-court;
+  border: 1px solid $color-first-White;
+  border-radius: 12px;
+  width:500px;
+  height: 400px;
+  margin: 30px auto;
+  th,
+  td{
+      border: 1px solid $color-first-White;
+      border-radius: 12px;
+      padding: 10px;
+      text-align: center;
+    }
+  .button-select-card-numbers{
+    color:$color-first-White;
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .button-select-card-numbers-toggle {
+    outline-style: dotted;
+    border-radius: 50%;
+    color:$color-first-White;
+  }
+  .cursorNotAllowed{
+    cursor:not-allowed;
+  }
+}

@@ -1,0 +1,78 @@
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+/>
+
+<div class="nav">
+
+  <div
+    class="icon-fa-solid-fa-bars"
+    (click)="onToggleModal()"
+    [ngClass]="{showModal}"
+  >
+    <i class="fa-solid fa-bars" style="color: #ffffff"></i>
+  </div>
+
+
+  <ul
+    (click)="onToggleModal()"
+    class="ul-modal"
+    [ngClass]="{showModal}"
+  >
+
+  <li class="li">
+    <div class="icon-fa-solid-fa-dollar-sign">
+      <i class="fa-solid fa-dollar-sign" style="color: #fff077;"></i>
+    </div>
+    <a
+      routerLink="/"
+      routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact: true }"
+      ariaCurrentWhenActive="page"
+      >Super Loto</a
+    >
+  </li>
+  <li class="li">
+    <a
+      routerLink="/super-mega"
+      routerLinkActive="active"
+      ariaCurrentWhenActive="page"
+      >Super Mega</a
+    >
+  </li>
+  <li class="li">
+    <a
+      routerLink="/super-corner"
+      routerLinkActive="active"
+      ariaCurrentWhenActive="page"
+      >Super Quina</a
+    >
+  </li>
+  <li class="li">
+    <a
+      routerLink="/super-court"
+      routerLinkActive="active"
+      ariaCurrentWhenActive="page"
+      >Super Quadra</a
+    >
+  </li>
+  <li class="li">
+    <a
+      routerLink="/about"
+      routerLinkActive="active"
+      ariaCurrentWhenActive="page"
+      >Sobre</a
+    >
+  </li>
+  <div class="icons-social-networks">
+    <i class="fa-brands fa-facebook" style="color: #ffffff"></i>
+    <i class="fa-brands fa-instagram" style="color: #ffffff"></i>
+    <i class="fa-brands fa-youtube" style="color: #ffffff"></i>
+    <i class="fa-brands fa-tiktok" style="color: #ffffff"></i>
+  </div>
+
+    <div class="icon-fa-solid-fa-xmrk">
+      <i class="fa-solid fa-xmark" style="color: #edf1f5;"></i>
+    </div>
+  </ul>
+</div>

@@ -1,0 +1,35 @@
+@import "../../../styles.scss";
+.nav-footer{
+  border-top: 0.01px solid #ffffff3b;
+  padding-top:10px;
+  background:$footer-linear-gradient;
+  .ul-footer{
+    @include  display-center;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    .li-footer{
+      display: flex;
+      flex-direction: column;
+      color:$color-white-light;
+      gap: 2px;
+      a{
+        font-family:$font-family-jura;
+        color:$color-white-light;
+        text-decoration: none;
+      }
+    }
+    .icons-social-networks{
+      @include  display-center;
+      flex-direction: column;
+      gap: 6px;
+    }
+  }
+  .rights-reserved{
+    @include  display-center;
+    gap: 12px;
+    padding: 10px 10px;
+    color:$color-white-light;
+  }
+}
+

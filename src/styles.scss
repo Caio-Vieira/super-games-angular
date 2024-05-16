@@ -1,1 +1,67 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+// variables
+$font-family-jura:"Jura", sans-serif;
+$color-red:#ee281a;
+$color-white-light:#ffffff5e;
+$color-first-White: #ffffff;
+$color-second-white:#edf1f5;
+$color-purple: #9967fc;
+$color-dark-purple:#5514faa6;
+$color-light-black: #000000d0;
+$color-green: #05b694;
+$color-blue-pool:#00ffff;
+$color-lightblue: #45a1ff;
+$color-yellow: #febd60;
+$color-orange:#f78100;
+$main-linear-gradient: linear-gradient(#100b11, #0f0a10,#0e0b12,
+#110913, #120715, #110712, #0e0613, #100415,
+#150618, #120413,#120413);
+$table-liner-gradient-home: linear-gradient(0.25turn,#252540, #332e50, #39304f,
+#39304f, #39304f, #362f4e, #2f2c4b, #26223d, #19172b8e);
+$table-liner-gradient-super-mega:linear-gradient(0.25turn, #05b6931a, #05b69325, #05b6932a, #05b6932a,#05b6932c);
+$table-liner-gradient-super-corner:linear-gradient(0.25turn,#45a2ff2d,#45a2ff31,#45a2ff2a,#45a2ff36,#45a2ff3a);
+$table-liner-gradient-super-court:linear-gradient(00.25turn,#f780001c,#f7800038,#f780002c,#f780002a,#f7800034);
+$nav-modal-gradient: linear-gradient(#0f0f0f,#0b0b0b,#080808,#040404,#000000);
+$footer-linear-gradient: linear-gradient(00.25turn,#161622, #12101b, #150f22,);
+
+
+@mixin display-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+@mixin play--button-restart--button {
+  border: solid 1px $color-first-White;
+  border-radius: 10px;
+  width: 8rem;
+  height: 3rem;
+  background-color:$color-purple;
+  color:$color-first-White;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+
+}
+@mixin generate-numbers-button--button-reveal-numbers{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px $color-first-White;
+  border-radius: 10px;
+  width: 8rem;
+  height: 3rem;
+  gap: 2px;
+  background-color:$color-purple;
+  color:$color-first-White;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+
+}

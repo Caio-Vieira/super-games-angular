@@ -1,0 +1,28 @@
+@import "../../../styles.scss";
+.container-about {
+  display: flex;
+  flex-direction: column;
+  padding-top:40px;
+  gap: 12px;
+  width: auto !important;
+  height: 100vh !important;
+  background: $main-linear-gradient;
+  .h2 {
+   @include  display-center;
+    font-family: $font-family-jura;
+    color: $color-first-White;
+  }
+  .about {
+    @include  display-center;
+    padding-top:95px;
+    color: $color-first-White;
+    .description {
+      width: 80%;
+      text-align: center;
+      text-indent: 2%;
+      font-size: 1.2rem;
+      font-family: $font-family-jura;
+      line-height: 1.6rem;
+    }
+  }
+}

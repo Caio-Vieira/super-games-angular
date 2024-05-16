@@ -1,0 +1,156 @@
+@import "../styles.scss";
+
+.container--card {
+  background:$main-linear-gradient;
+  height: 100vh;
+  padding-top: 60px;
+
+  h2{
+    font-family:$font-family-jura;
+    font-style: italic;
+    text-align: center;
+    color: #edf1f5;
+  }
+  .section {
+    margin-top: 2%;
+    .generate-numbers-reveal{
+      @include display-center;
+      gap: 10px;
+
+      .generate-numbers-button{
+        @include generate-numbers-button--button-reveal-numbers;
+
+      }
+      .button-reveal-numbers{
+        @include generate-numbers-button--button-reveal-numbers;
+      }
+    }
+    .reveal--numbers{
+      @include display-center;
+      margin-top: 20px;
+      .hidden {
+        visibility: hidden;
+      }
+      #secretNumbers{
+        @include display-center;
+        background-color:$color-second-white;
+        border-radius: 10px;
+        margin-top: 6px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1.3rem;
+        width: 375px;
+      }
+      p{
+        @include display-center;
+      }
+    }
+    .play--restart {
+      @include display-center;
+      gap: 10px;
+      .play--button,
+      .restart--button{
+      @include play--button-restart--button;
+
+      }
+
+    }
+    .result{
+      @include display-center;
+      gap: 3px;
+      color:$color-first-White;
+      // text-align: center;
+      border-radius: 10px;
+      font-size: 1.3rem;
+      // padding: 10px 10px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      margin-top: 10px;
+
+      .fa-exclamation-circle{
+        margin-top: auto !important;
+        color: $color-red;
+      }
+      .fa-circle-check{
+        color: $color-green;
+      }
+    }
+
+  }
+
+}
+@media screen and (max-width:400px){
+  .numbers--table {
+    width: 95%;
+  }
+  #secretNumbers{
+    width: 95%;
+  }
+}
+@media screen and (max-width:767px) {
+
+  .section{
+    padding-top:15%;
+  }
+  .secretNumbers{
+    width: 360px !important;
+  }
+
+  .numbers--table {
+    height: auto !important;
+    width:300px !important;
+  }
+  .result{
+    @include display-center;
+    width: 100%;
+    i{
+      font-size:1rem;
+    }
+    p{
+      font-size:1rem;
+    }
+  }
+}
+
+@media screen and (width:768px){
+.section{
+  padding-top: 10%;
+}
+ h2{
+ text-align: left !important;
+ margin-left: 13%;
+ }
+
+}
+@media screen and  (width:820px){
+  .section{
+    padding-top: 10%;
+  }
+   h2{
+   text-align: left !important;
+   margin-left: 13%;
+  }
+
+
+}
+@media screen and (width:912px) {
+  .section{
+    padding-top: 10%;
+  }
+  h2{
+   text-align: left !important;
+   margin-left: 13%;
+  }
+
+}
+@media screen and (width:1024px) {
+  .section{
+    padding-top: 10%;
+  }
+  h2{
+   text-align: left !important;
+   margin-left: 13%;
+  }
+}
+
+
+
