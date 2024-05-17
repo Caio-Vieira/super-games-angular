@@ -1,6 +1,6 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
-/.angular/cache/
+/.angular/cache/16.2.14/
 
 # Node
 /node_modules
