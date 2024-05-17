@@ -57,8 +57,8 @@ ng serve -o
   <hr>
   <img align="center" alto="img-super-game" width="40%"  height="auto" src="https://github.com/Caio-Vieira/super-games-angular/assets/129814574/ad0f3c3c-7be9-4b2e-ad5c-fd424fb5d649"> 
   <hr>
-  <img align="center" alto="img-super-game" width="25%"  height="auto" src="https://github.com/Caio-Vieira/tvseries-angular.ts/assets/129814574/17d494d9-66df-4363-aa08-b9b757063b93">
-  <img align="center" alto="img-super-game" width="25%"  height="auto" src="https://github.com/Caio-Vieira/tvseries-angular.ts/assets/129814574/457415d3-2e90-4ad2-9ff6-6a22693d8b11">
+  <img align="center" alto="img-super-game" width="30%"  height="auto" src="https://github.com/Caio-Vieira/tvseries-angular.ts/assets/129814574/17d494d9-66df-4363-aa08-b9b757063b93">
+  <img align="center" alto="img-super-game" width="30%"  height="auto" src="https://github.com/Caio-Vieira/tvseries-angular.ts/assets/129814574/457415d3-2e90-4ad2-9ff6-6a22693d8b11">
 </div>
 
 
