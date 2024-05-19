@@ -52,13 +52,22 @@ ng serve -o
 
 ````
 <hr>
+
+<div display="flex" align="center">   
+  
+  <img  width="500px" height="auto" src="https://github.com/Caio-Vieira/super-games-angular/assets/129814574/f262be14-10db-41bd-8cbe-051c38779752"  alt="gif-super-game">
+  
+ </div>
+ <hr>
+
+
 <div display="flex" align="center">
-  <img align="center" alto="img-super-game" width="100%"  height="auto" src="https://github.com/Caio-Vieira/super-games-angular/assets/129814574/7612ebd4-d88e-4fa2-9879-f298c9fe6c96"> 
+  <img align="center"  width="100%"  height="auto" src="https://github.com/Caio-Vieira/super-games-angular/assets/129814574/7612ebd4-d88e-4fa2-9879-f298c9fe6c96" alt="img-super-game"> 
   <hr>
-  <img align="center" alto="img-super-game" width="40%"  height="auto" src="https://github.com/Caio-Vieira/super-games-angular/assets/129814574/ad0f3c3c-7be9-4b2e-ad5c-fd424fb5d649"> 
+  <img align="center" alto="img-super-game" width="40%"  height="auto" src="https://github.com/Caio-Vieira/super-games-angular/assets/129814574/ad0f3c3c-7be9-4b2e-ad5c-fd424fb5d649" alto="img-super-game"> 
   <hr>
-  <img align="center" alto="img-super-game" width="30%"  height="auto" src="https://github.com/Caio-Vieira/tvseries-angular.ts/assets/129814574/17d494d9-66df-4363-aa08-b9b757063b93">
-  <img align="center" alto="img-super-game" width="30%"  height="auto" src="https://github.com/Caio-Vieira/tvseries-angular.ts/assets/129814574/457415d3-2e90-4ad2-9ff6-6a22693d8b11">
+  <img align="center"  width="30%"  height="auto" src="https://github.com/Caio-Vieira/tvseries-angular.ts/assets/129814574/17d494d9-66df-4363-aa08-b9b757063b93"  alto="img-super-game">
+  <img align="center"  width="30%"  height="auto" src="https://github.com/Caio-Vieira/tvseries-angular.ts/assets/129814574/457415d3-2e90-4ad2-9ff6-6a22693d8b11" alto="img-super-game">
 </div>
 
 
