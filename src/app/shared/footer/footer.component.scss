@@ -1,8 +1,12 @@
 @import "../../../styles.scss";
+
+
+
 .nav-footer{
-  border-top: 0.01px solid #ffffff3b;
+  border-top: 0.01px solid  $color-white-border-top-footer;
   padding-top:10px;
   background:$footer-linear-gradient;
+  
   .ul-footer{
     @include  display-center;
     flex-direction: row;

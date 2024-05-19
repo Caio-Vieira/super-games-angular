@@ -9,7 +9,7 @@
     font-family:$font-family-jura;
     font-style: italic;
     text-align: center;
-    color: #edf1f5;
+    color: $color-second-white;
   }
   .section {
     margin-top: 2%;
@@ -59,10 +59,8 @@
       @include display-center;
       gap: 3px;
       color:$color-first-White;
-      // text-align: center;
       border-radius: 10px;
       font-size: 1.3rem;
-      // padding: 10px 10px;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       margin-top: 10px;
 
