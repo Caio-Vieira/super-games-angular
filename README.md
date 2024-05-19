@@ -2,9 +2,9 @@
 
 <h3>Project description</h3>
  <div display= "flex">
-  <img align="center" alto="CAIO-typeScrip" height="30" width="40"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg">
-  <img  align="center" alto="Caio-angular" height="30" width="40"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg">
-   <img align="center" alto="Caio-scss"  height="35" width="40"     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg">
+  <img align="center"  height="30" width="40"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"alt="CAIO-typeScrip">
+  <img  align="center"  height="30" width="40"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" alt="Caio-angular">
+   <img align="center"   height="35" width="40"  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg" alt="Caio-scss">
             
  </div>
  <br>
@@ -55,7 +55,7 @@ ng serve -o
 
 <div display="flex" align="center">   
   
-  <img  width="500px" height="auto" src="https://github.com/Caio-Vieira/super-games-angular/assets/129814574/f262be14-10db-41bd-8cbe-051c38779752"  alt="gif-super-game">
+  <img  width="600px" height="auto" src="https://github.com/Caio-Vieira/super-games-angular/assets/129814574/f262be14-10db-41bd-8cbe-051c38779752"  alt="gif-super-game">
   
  </div>
  <hr>
